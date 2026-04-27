@@ -1,0 +1,326 @@
+:root {
+                --royal-red: #8B0000;
+                --gold: #D4AF37;
+                --cream: #FFFDD0;
+            }
+
+             body {
+              background-color: #111;
+                background-image: "images/img4.png";
+                color: var(--cream);
+                font-family: 'Playfair Display', serif;
+                overflow-x: hidden;
+            }
+
+            
+
+
+            .glow-button {
+  padding: 15px 30px;
+  font-size: 18px;
+  background-color: #111;
+  color: #00ffd5;
+  border: 2px solid p;
+  border-radius: 8px;
+  cursor: pointer;
+  /* The Glow: x-offset, y-offset, blur, color */
+  box-shadow: 0 0 10px #00ffd5, 0 0 20px #4c2c69;
+  transition: 0.3s ease;
+}
+
+/* Intensify glow on hover */
+.glow-button:hover {
+  box-shadow: 0 0 20px #00ffd5, 0 0 40px #00ffd5, 0 0 60px #00ffd5;
+  background-color: #00ffd5;
+  color: #111;
+}
+
+
+            .btn > span{
+              font-family: 'Times New Roman', Times, serif;
+            }
+
+            .font-cinzel {
+                font-family: 'Cinzel Decorative', cursive;
+            }
+
+            .m1{
+              background-color: #8B0000;
+              cursor:move;
+              text-align: center;
+              transform: matrix3d(10px);
+               padding: 3px;
+              background-image: img1.png;
+              
+            }
+            .m1:hover{
+              box-shadow: 0 0 20px gold, 0 0 40px gold, 0 0 60px gold;
+            }
+
+            .m2{
+              background-color:#4c2c69 ;
+              text-align: center;
+               padding: 3px;
+              
+            }
+            .m2:hover{
+              box-shadow: 0 0 20px gold, 0 0 40px gold, 0 0 60px gold;
+
+            }
+
+            .m3{
+              background-color: #4c2c69;
+              text-align: center;
+              text-decoration: solid;
+               padding: 2px;
+               
+            }
+            .m3:hover{
+              box-shadow: 0 0 20px gold, 0 0 40px gold, 0 0 60px gold;
+
+            }
+
+            .m4{
+              background-color: #4c2c69;
+               padding: 3px;
+              margin: 2px;
+            
+              
+            }
+            .m4:hover{
+              box-shadow: 0 0 20px gold, 0 0 40px gold, 0 0 60px gold;
+
+            }
+
+            .eve{
+              text-align: center;
+              text-decoration: solid;
+              border: #D4AF37;
+              margin: 2px solid;
+             
+               padding: 3px;
+               color:#D4AF37;
+               border-radius: 300px;
+            }
+
+            .mnm{
+              text-align: center;
+             
+              color: #D4AF37;
+              border-radius: 300px;
+            }
+
+            .m5{
+              background-color: #4c2c69;
+              text-align: center;
+               padding: 3px;
+               margin: 2px;
+            }
+            .m5:hover{
+              box-shadow: 0 0 20px gold, 0 0 40px gold, 0 0 60px gold;
+
+            }
+
+            .m6{
+              background-color: #4c2c69;
+              margin: 2px;
+              border-color: #D4AF37;
+              padding: 3px;
+            }
+            .m6:hover{
+              box-shadow: 0 0 20px gold, 0 0 40px gold, 0 0 60px gold;
+
+            }
+
+            .m7{
+              background-color: #4c2c69;
+              text-align: center;
+              text-decoration: solid;
+              padding: 3px;
+            }
+            .m7:hover{
+              box-shadow: 0 0 20px gold, 0 0 40px gold, 0 0 60px gold;
+
+            }
+
+            .m8{
+              background-color: #8B0000;
+              text-align: center;
+              text-decoration: solid;
+              padding: 3px;
+            }
+            .m8:hover{
+              box-shadow: 0 0 20px gold, 0 0 40px gold, 0 0 60px gold;
+
+            }
+
+            .images{
+              align-items: center;
+            }
+            .Moments{
+              text-align: center;
+              text-decoration: solid;
+              box-shadow: #D4AF37;
+             text-size-adjust: var(--gold);
+            }
+
+            .img1{
+              width: 200px;
+              height: 300px;
+              transition:transform 0.5s ease;
+              margin: 10px;
+              object-fit: cover;
+              border-radius: 5px;
+            
+            }
+
+            .img1:hover{
+               transform: scale(1.1);
+            }
+
+            .img2{
+              width: 200px;
+              height: 300px;
+              transition:transform 0.5s ease;
+              margin: 10px;
+              object-fit: cover;
+               border-radius: 5px;
+              cursor: context-menu;
+              
+            }
+            .img2:hover{
+               transform: scale(1.1);
+            }
+
+
+            .img3{
+              width: 200px;
+              height: 300px;
+              transition:transform 0.5s ease;
+              margin: 10px;
+              object-fit: cover;
+               border-radius: 5px;
+            }
+            .img3:hover{
+               transform: scale(1.1);
+            }
+
+
+            .img4{
+              width: 200px;
+              height: 300px;
+              transition:transform 0.5s ease;
+              margin: 10px;
+              object-fit: cover;
+               border-radius: 5px;
+            }
+            .img4:hover{
+               transform: scale(1.1);
+            }
+
+
+            .img5{
+               width: 200px;
+              height: 300px;
+              transition:transform 0.5s ease;
+              margin: 10px;
+              object-fit: cover;
+               border-radius: 5px;
+              
+            }
+            .img5:hover{
+               transform: scale(1.1);
+            }
+
+
+            .date{
+              text-shadow: 2px 2px 5px var(--gold);
+            }
+
+         
+            .vv{
+              position: relative;
+              width: calc(25% - 20px);
+              height: auto;
+              margin: 10px;
+              cursor: pointer;
+             transition:transform 0.5s ease;
+             clip-path: circle(40%);
+            
+             object-fit: cover;
+              
+
+            }
+
+            .vv:hover {
+             transform: scale(1.1);
+             box-shadow: 0 0 20px gold, 0 0 40px gold, 0 0 60px gold;
+              
+            }  
+
+            .bride{
+              justify-content: left;
+            }
+
+            .Haldi{
+              text-align: left;
+               font-size: 30px;
+            }
+
+            .Recepction{
+              text-align: center;
+              font-size: 30px;
+            }
+
+            .theWedding{
+              text-align: right;
+              text-decoration: solid;
+              font-size: 30px;
+
+            }
+            
+
+
+
+            .inv{
+              text-align: left;
+              top: auto;
+              padding-top: 2px;
+              font-size: 30px;
+              
+              
+            }
+
+            .ine{
+              text-align: right;
+              touch-action: pan-x;
+              padding-top: 2px;
+              margin: 2px;
+              font-size: 30px;
+            }
+
+
+
+
+ 
+  .audio-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+  }
+
+ 
+  audio {
+    height: 30px;
+    filter: invert(100%); /* Makes controls white on dark backgrounds */
+  }
+
+ 
+
+
+           
